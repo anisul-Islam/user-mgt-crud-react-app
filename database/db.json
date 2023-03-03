@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Anisul Islam",
+      "email": "anisul2010s@yahoo.co.uk",
+      "age": 32,
+      "gender": "Male",
+      "country": "Finland"
+    },
+    {
+      "id": 2,
+      "name": "Alex Warren",
+      "email": "alex@gmail.com",
+      "age": 32,
+      "gender": "Male",
+      "country": "Australia"
+    },
+    {
+      "id": 3,
+      "name": "Paolina Nixon",
+      "email": "paul@gmail.com",
+      "age": 28,
+      "gender": "Female",
+      "country": "Finland"
+    },
+    {
+      "id": 4,
+      "name": "Mercedesz dori",
+      "email": "dori@gmail.com",
+      "age": 35,
+      "gender": "Female",
+      "country": "Hungary"
+    }
+  ]
+}
