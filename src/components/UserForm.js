@@ -30,6 +30,7 @@ const UserForm = ({ onAddNewUser, btnText, selectedUser }) => {
     return (
         <div>
             <button
+                className="btn"
                 onClick={() => {
                     setShow(!show);
                 }}>
