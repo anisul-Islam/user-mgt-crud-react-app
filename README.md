@@ -1,5 +1,6 @@
 # CRUD APP - HTTP Methods
 
+-   [here is the demo of this project](https://silver-truffle-790660.netlify.app/)
 -   create a JSON server-
     npm install json-server
     npx json-se

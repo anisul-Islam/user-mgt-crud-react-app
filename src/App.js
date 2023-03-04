@@ -84,6 +84,10 @@ const App = () => {
                 {isLoading && <p>Loading...</p>}
                 {error ? <p>{error}</p> : <Users users={users} onDeleteUser={deleteUser} onEditUser={editUser} />}
             </main>
+            <footer>
+                <p>Copyright By Anisul Islam 2023</p>
+                <p>Developed with &hearts; by Anisul Islam</p>
+            </footer>
         </div>
     );
 };

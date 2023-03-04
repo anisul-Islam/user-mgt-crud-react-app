@@ -50,6 +50,7 @@ header {
     align-items: center;
     background-color: #1c1c1c;
     color: white;
+    padding: 0.5rem;
 }
 main {
     min-height: 85vh;
@@ -57,6 +58,20 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0.5rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+.form__control > [type='text'],
+[type='email'] {
+    width: 20rem;
+    padding: 0.1rem;
 }
 .users {
     display: grid;
@@ -86,4 +101,14 @@ footer {
     align-items: center;
     padding: 1rem;
     color: white;
+}
+@media screen and (max-width: 768px) {
+    .users {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media screen and (max-width: 600px) {
+    .users {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
